@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sari Oktaviani Pane — Portfolio</title>
+
+    <meta
+      name="description"
+      content="Personal portfolio of Sari Oktaviani, an Information Technology student interested in web development and UI/UX design."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="#home" class="logo">sari.pane</a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact" class="nav-cta">Let's Talk ↗</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- navbar-->
+      <section class="hero section" id="home">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Hello, I'm Sari Pane</p>
+
+            <h1>
+              Information Technology
+              <span>Student & Creative Learner</span>
+            </h1>
+
+            <p class="hero-description">
+              Mengeksplorasi pengembangan web dan UI/UX, sambil terus belajar dan mengembangkan ide menjadi sesuatu yang nyata
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#work" class="button button-primary"> View My Work </a>
+
+              <a href="#contact" class="button button-secondary">
+                Let's Connect
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="profile-card">
+              <img src="images/profil.jpg" alt="Photo of Sari Oktaviani" />
+
+              <p class="profile-label">IT STUDENT · 2025</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">01. About Me</p>
+
+            <h2 class="about-title">About me</h2>
+          </div>
+
+          <div class="about-content">
+
+         <div class="about-text">
+
+            <p>
+                Saya Sari, mahasiswa Teknologi Informasi di Universitas Jember.
+                Saat ini saya sedang belajar dan mencoba berbagai hal di bidang
+                teknologi, terutama pengembangan website dan UI/UX.
+            </p>
+
+            <p>
+                Saya masih dalam proses menemukan bidang yang paling ingin saya
+                tekuni. Untuk itu, saya senang mencoba hal-hal baru melalui tugas
+                kuliah, project, maupun kegiatan lainnya. Dari setiap proses tersebut,
+                saya belajar memahami apa yang saya suka, apa yang perlu saya
+                perbaiki, dan ke mana saya ingin berkembang.
+            </p>
+
+        </div>
+
+            <div class="about-cards">
+              <div class="mini-card">
+                <span>01</span>
+                <h3>Student</h3>
+                <p>Learning technology through classes, projects, and new experiences</p>
+              </div>
+
+              <div class="mini-card">
+                <span>02</span>
+                <h3>Learner</h3>
+                <p>Trying new things and improving along the way</p>
+              </div>
+
+              <div class="mini-card">
+                <span>03</span>
+                <h3>Curious</h3>
+                <p>Interested in understanding how things work</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills-->
+      <section class="skills section" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">02. Skills</p>
+
+            <h2>What I work with.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h3>Development</h3>
+
+              <div class="skill-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>C#</span>
+                <span>SQL</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Design</h3>
+
+              <div class="skill-tags">
+                <span>UI / UX</span>
+                <span>Figma</span>
+                <span>Canva</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Tools</h3>
+
+              <div class="skill-tags">
+                <span>VS Code</span>
+                <span>GitHub</span>
+                <span>Laragon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- project -->
+      <section class="projects section" id="work">
+        <div class="container">
+          <div class="section-heading project-heading">
+            <div>
+              <p class="eyebrow">03. Selected Work</p>
+
+              <h2>My Project</h2>
+            </div>
+
+            <p class="project-count">01 Project</p>
+          </div>
+
+          <article class="featured-project">
+            <div class="project-image">
+              <img src="images/project-2.jpg" alt="COCOALITE project preview" />
+            </div>
+
+            <div class="project-info">
+              <span class="project-number"> 01. FEATURED PROJECT </span>
+
+              <h3>COCOALITE</h3>
+
+              <p>
+                Sistem informasi yang dirancang untuk
+                membantu pengelolaan proses manajemen kakao, mulai dari
+                supplier, penerimaan kakao, pengendalian kualitas, pengelolaan
+                batch dan persediaan, hingga proses pengiriman.
+              </p>
+
+              <div class="project-tags">
+                <span>PBO</span>
+                <span>C#</span>
+              </div>
+
+              <a
+                href="https://github.com/sari-pane/Cocoalite"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Lihat Project ↗
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Pengalaman -->
+     <section class="experience section" id="experience">
+  <div class="container">
+
+    <div class="section-heading">
+      <p class="eyebrow">04 — Experience</p>
+      <h2>Experience</h2>
+    </div>
+
+    <div class="experience-list">
+
+      <!-- ITDEV 9.0 -->
+      <div class="experience-item">
+        <div class="experience-image">
+          <img src="images/itdev.jpg" alt="ITDEV 9.0">
+        </div>
+
+        <div class="experience-content">
+          <p class="experience-year">2026</p>
+          <h3>Bendahara</h3>
+          <p class="experience-place">ITDEV 9.0</p>
+
+          <p class="experience-description">
+            Mengelola kebutuhan administrasi dan keuangan kegiatan
+            serta membantu memastikan kebutuhan acara berjalan dengan baik.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- tit -->
+      <div class="experience-item">
+        <div class="experience-image">
+          <img src="images/TIT.png" alt="Talk In Tech 6.0">
+        </div>
+
+        <div class="experience-content">
+          <p class="experience-year">2026</p>
+          <h3>KSK</h3>
+          <p class="experience-place">Talk In Tech 6.0</p>
+
+          <p class="experience-description">
+            Terlibat dalam persiapan dan pelaksanaan kegiatan
+            serta bekerja sama dengan anggota tim selama proses acara.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- SARASEHAN -->
+      <div class="experience-item">
+        <div class="experience-image">
+          <img src="images/sarser.jpg" alt="Sarasehan Himpunan">
+        </div>
+
+        <div class="experience-content">
+          <p class="experience-year">2026</p>
+          <h3>Acara</h3>
+          <p class="experience-place">Sarasehan Himpunan</p>
+
+          <p class="experience-description">
+            Membantu mempersiapkan dan menjalankan rangkaian acara
+            serta berkoordinasi dengan anggota tim selama kegiatan.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- DIES NATALIS -->
+      <div class="experience-item">
+        <div class="experience-image">
+          <img src="images/diesnatalis.jpeg" alt="Dies Natalis dan Meet and Greet HIMATIF">
+        </div>
+
+        <div class="experience-content">
+          <p class="experience-year">2026</p>
+          <h3>Sekretaris</h3>
+          <p class="experience-place">
+            Dies Natalis &amp; Meet and Greet HIMATIF
+          </p>
+
+          <p class="experience-description">
+            Membantu mengelola administrasi dan dokumentasi kegiatan
+            serta mendukung koordinasi selama proses persiapan acara.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      <!-- edu dan aktivitas -->
+      <section class="experience section" id="experience">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">05. Education & Activities</p>
+
+            <h2>Where I'm learning and growing.</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-year"> 2025 — PRESENT </span>
+
+              <div class="timeline-content">
+                <h3>Universitas Jember</h3>
+
+                <p>S1 Teknologi Informasi</p>
+
+                <span> Faculty of Computer Science </span>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-year"> 2025 — PRESENT </span>
+
+              <div class="timeline-content">
+                <h3>HIMATIF</h3>
+
+                <p>Himpunan Mahasiswa Teknologi Informasi</p>
+
+                <span> Organization & Creative Collaboration </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+        <div class="container">
+
+          <div class="contact-content">
+
+            <p class="eyebrow">06. Let's Connect</p>
+
+            <h2>
+              Let's work together.
+              <span>Have a project in mind?</span>
+            </h2>
+
+            <p class="contact-description">
+               I'm always open to new ideas, projects, and opportunities to learn together.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:oktavianisari936@gmail.com" class="contact-link">
+                Email ↗
+              </a>
+
+              <a
+                href="https://www.instagram.com/sari_oktavianipane"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+              >
+                Instagram ↗
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/sari-oktaviani-pane-740556387"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+              >
+                LinkedIn ↗
+              </a>
+
+              <a
+                href="https://github.com/sari-pane"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+              >
+                GitHub ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <a href="#home" class="logo"> sari.pane </a>
+
+        <p>© 2026 Sari Oktaviani. Still learning, still building!</p>
+
+        <div class="footer-socials">
+          <a
+            href="https://www.instagram.com/sari_oktavianipane"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sari-oktaviani-pane-740556387"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/sari-pane"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
