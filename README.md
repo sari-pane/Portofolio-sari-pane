@@ -3,7 +3,7 @@ Personal Portofolio website built with HTML, CSS, and JavaScript
 
 Website ini dibuat untuk memperkenalkan diri saya sebagai mahasiswa Teknologi Informasi melalui tampilan portfolio sederhana, responsif, dan mudah digunakan.
 # Preview
-![Portfolio Website](images/portfolio-preview.png)
+![Portfolio Website](https://github.com/sari-pane/Portofolio-sari-pane/blob/main/images/portofolio-preview.png)
 
 # Deskripsi
 Website ini dibuat untuk memperkenalkan diri saya sebagai mahasiswa Teknologi Informasi melalui tampilan portfolio yang sederhana, responsif, dan mudah digunakan.
