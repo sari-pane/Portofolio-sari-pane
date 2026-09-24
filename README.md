@@ -3,7 +3,16 @@ Personal Portofolio website built with HTML, CSS, and JavaScript
 
 Website ini dibuat untuk memperkenalkan diri saya sebagai mahasiswa Teknologi Informasi melalui tampilan portfolio sederhana, responsif, dan mudah digunakan.
 # Preview
-![Portfolio Website](images/Portofolio%20preview.png)
+## Preview
+
+### Desktop
+![Portfolio Desktop](images/portofolio-desktop.png)
+
+### Tablet
+![Portfolio Tablet](images/portofolio-tablet.png)
+
+### Mobile
+![Portfolio Mobile](images/portofolio-mobile.png)
 
 # Deskripsi
 Website ini dibuat untuk memperkenalkan diri saya sebagai mahasiswa Teknologi Informasi melalui tampilan portfolio yang sederhana, responsif, dan mudah digunakan.
